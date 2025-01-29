@@ -2,10 +2,10 @@
 import React, { useState, useEffect } from "react";
 
 const images = [
-  "http://localhost:3000/images-and-icon/cargo.png",
-  "http://localhost:3000/images-and-icon/ser.png",
-  "http://localhost:3000/images-and-icon/Handshake 1.png",
-  "http://localhost:3000/images-and-icon/imgnnn.png",
+  "https://m7investment.vercel.app/images-and-icon/cargo.png",
+  "https://m7investment.vercel.app/images-and-icon/ser.png",
+  "https://m7investment.vercel.app/images-and-icon/Handshake 1.png",
+  "https://m7investment.vercel.app/images-and-icon/imgnnn.png",
 ];
 
 const ImageSlider = () => {

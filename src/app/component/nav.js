@@ -41,13 +41,13 @@ export default function Nav() {
     <div className="logo-989"><img src="\images-and-icon\LOGO 1.png" width={'90px'} alt="" /></div>
     <div className="menu-989">
 
-      <a  href="/" className="link-989">Home</a>
-      <a href="/about-us" className="link-989">About Us</a>
-      <a href="/values" className="link-989">Values</a>
-      <a href="/Goals" className="link-989">Goals & Objectives</a>
-      <a href="/Services" className="link-989">Services</a>
-      <a href="/Partners" className="link-989">Partners</a>
-      <a href="/Team" className="link-989">Our Team</a>
+      <Link href="/" className="link-989">Home</Link>
+      <Link href="/about-us" className="link-989">About Us</Link>
+      <Link href="/values" className="link-989">Values</Link>
+      <Link href="/Goals" className="link-989">Goals & Objectives</Link>
+      <Link href="/Services" className="link-989">Services</Link>
+      <Link href="/Partners" className="link-989">Partners</Link>
+      <Link href="/Team" className="link-989">Our Team</Link>
     </div>
     <div className="hamburger-989">
       <i className="fas fa-bars"></i>
