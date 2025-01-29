@@ -25,12 +25,16 @@ export default function Page() {
     </p>
     <div className="buttons-909">
 
+    <Link href="/Services">
     <button className="gradiant-button-999">
       <span className="text">Explore</span>
       <img src="\images-and-icon\Group 9827.svg" alt="" />
     </button>
+</Link>
 
+<Link href="/contact">
       <button className="contact-909">Contact Us</button>
+      </Link>
     </div>
   </div>
 </section>
@@ -114,10 +118,12 @@ export default function Page() {
  </div>
 
  <div>
+ <Link href="/Services">
   <button className="gradiant-button-999">
   View All Services
   <img src="\images-and-icon\Group 9827.svg" alt="" />
   </button>
+  </Link>
  </div>
 
 </div>

@@ -25,9 +25,9 @@ export default function Page() {
 {/* Values */}
 
 
-      <div className="wow animate__animated animate__zoomIn header539">
+      <div className="wow animate__animated animate__zoomIn header539" style={{marginBottom:'50px'}}>
         <p className='text_998'>
-        Our Core Values:  <strong> The Foundation of Our Success</strong>
+        <span className='headp1'>Our Core Values:</span> <span className='headp2'> The Foundation of Our Success</span>
         </p>
         <p className='text_999'>
         At M7 Investment LLC, our core values guide every decision, partnership, and project we undertake. They reflect who we are and what we stand for.

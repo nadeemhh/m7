@@ -16,7 +16,7 @@
     margin-top: 50px;
   }
 
-  .contactd39{margin-top: -250px;}
+  .contactd39{margin-top: -250px;z-index: 2;}
 
   .card-container39 {
     display: flex;
@@ -201,6 +201,12 @@
 .footer-container-939 {
 
   padding: 50px 10px;
+}
+
+.card-right39{gap: 0px;}
+
+.icon-image39 {
+  display: none;
 }
 
 }

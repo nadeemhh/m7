@@ -1,4 +1,5 @@
 import './footer.css'
+import Link from 'next/link';
 
 export default function Footer() {
   return (
@@ -52,9 +53,12 @@ export default function Footer() {
               className="icon-image39"
             />
           </div>
+          <Link href="/contact">
+          
           <button className="gradiant-black-button-999">
             Get In Touch  <img src="\images-and-icon\Group 9827.svg" alt="" />
           </button>
+          </Link>
         </div>
       </div>
     </div>

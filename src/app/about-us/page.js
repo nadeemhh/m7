@@ -27,7 +27,7 @@ export default function Page() {
 <section className="container539">
       <div className="wow animate__animated animate__zoomIn header539">
         <p className='text_998'>
-         Building Global Partnerships, <strong>Driving Innovation.</strong>
+        <span className='headp1'>Building Global Partnerships,</span> <span className='headp2'> Driving Innovation.</span>
         </p>
         <p className='text_999'>
           Founded in 2022, M7 Investment LLC is a privately held international trade and investment company redefining excellence in global markets.

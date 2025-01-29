@@ -76,25 +76,40 @@ flex-wrap: wrap;text-align: center;}
    /* starting heading end  */
 
 
+ 
+    .bcimg{width: 700px;height: 400px;position: absolute;object-fit: contain;right:0%;z-index: 0;}
 
-   .integrity-container919 {
+   .services-container919 {
     display: flex;
     align-items: center;
     width: 100%;
     justify-content: space-between;
     padding: 20px;
     border-radius: 10px;
-    margin-top: 50px;
+    margin-top: 10px;
+  }
+
+  .services-container9192{
+
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 10px;
+    color: white;
   }
 
   .bggray{background-color: #F0F0F0;}
   .bgwhite{background-color: #ffffff;}
 
-  .integrity-text919 {
+  .services-text919 {
     max-width: 50%;
   }
   
-  .integrity-title919 {
+  .services-title919 {
     font-size: 30px;
     font-weight: bold;
     display: flex;
@@ -108,26 +123,28 @@ flex-wrap: wrap;text-align: center;}
     height: 24px;
   }
   
-  .integrity-subtitle919 {
+  .services-subtitle919 {
     font-style: italic;
     color: #666;
     margin-top: 5px;
   }
   
-  .integrity-description919 {
+  .services-description919 {
     margin-top: 10px;
     font-size: 20px;
-    color: #333;
+   
+   
   }
   
-  .integrity-image-container919 {
+  .services-image-container919 {
  
     max-width: 50%;
   }
   
-  .integrity-image919 {
+  .services-image919 {
     width: 300px;
     border-radius: 10px;
+    position: relative;
   }
   
   .text_990{
@@ -140,25 +157,36 @@ flex-wrap: wrap;text-align: center;}
 
   @media (max-width: 768px) {
 
-    .integrity-container919 {
+    .services-container919 {
       display: flex;
       flex-direction: column-reverse;
       align-items: flex-start;
       width: 100%;
       justify-content: space-between;
-      background-color: #f9f9f9;
       padding: 20px;
       border-radius: 10px;
       gap: 30px;
     }
 
-    .integrity-text919,.integrity-image-container919 {
+    .services-container9192{
+      display: flex;
+      flex-direction: column-reverse;
+      align-items: flex-start;
+      width: 100%;
+      justify-content: space-between;
+      padding: 20px;
+      border-radius: 10px;
+      gap: 30px;
+    }
+
+
+    .services-text919,.services-image-container919 {
  
       max-width: 100%;
     }
     
      
-  .integrity-image919 {
+  .services-image919 {
     width: 200px;
   }
   

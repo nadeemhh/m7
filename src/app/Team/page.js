@@ -27,7 +27,7 @@ export default function Page() {
 
       <div className="wow animate__animated animate__zoomIn header539">
         <p className='text_998'>
-        Meet Our Leadership <strong>Team</strong>
+        <span className='headp1'>Meet Our Leadership</span> <span className='headp2'>Team</span>
         </p>
         <p className='text_999'>
         At M7 Investment LLC, our leadership team is the driving force behind our vision and success. Our team is committed to steering the company toward sustainable growth, innovation, and excellence. 

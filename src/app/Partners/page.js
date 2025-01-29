@@ -27,7 +27,7 @@ export default function Page() {
 
       <div className="wow animate__animated animate__zoomIn header539" style={{marginBottom:'50px'}}>
         <p className='text_998'>
-        Our Esteemed <strong>Partners</strong>
+        <span className='headp1'>Our Esteemed</span> <span className='headp2'>Partners</span>
         </p>
         <p className='text_999'>
         At M7 Investment LLC, our success is built on strong and strategic partnerships across various industries.

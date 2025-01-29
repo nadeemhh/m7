@@ -27,7 +27,7 @@ export default function Page() {
 
       <div className="wow animate__animated animate__zoomIn header539">
         <p className='text_998'>
-        Our Aspirations,  <strong>Your Opportunities</strong>
+        <span className='headp1'>Our Aspirations, </span> <span className='headp2'>Your Opportunities</span>
         </p>
         <p className='text_999'>
         At M7 Investment LLC, we aim to create a lasting impact by driving innovation, fostering sustainability, and delivering exceptional value across industries.

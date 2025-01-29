@@ -23,7 +23,7 @@ const ImageSlider = () => {
   };
 
   return (
-    <div className="slider-container">
+    <div className="wow animate__animated animate__fadeInUp slider-container">
       <div className="image-wrapper">
         <img src={images[currentIndex]} alt={`Slide ${currentIndex + 1}`} className="gradient-border" />
       </div>
