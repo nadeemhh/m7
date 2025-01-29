@@ -1,0 +1,120 @@
+
+
+
+.hero-878 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background:  url('../../../public/images-and-icon/Bg\ 1\ \(1\).svg') center/cover no-repeat;
+    color: white;
+    padding: 20px;
+    padding-top: 50px;
+    height: 400px;
+  }
+  
+  .overlay-878 {
+    margin: 0px 30px;
+  }
+  
+  .title-878 {
+    font-size: 4rem;
+    font-weight: bold;
+  }
+  
+  
+  .description-878 {
+    font-size: 1.8rem;
+    margin: 10px 0;
+  }
+  
+  @media (max-width: 768px) {
+
+    .hero-878 {
+       
+        height: auto;
+        padding-bottom: 50px;
+      }
+
+    .title-878 {
+      font-size: 2rem;
+    }
+  
+    .subtitle-878 {
+      font-size: 1.8rem;
+    }
+  
+    .description-878 {
+      font-size: 1rem;
+    }
+  }
+  
+
+  /* hero end */
+
+
+
+.header539{display: flex;justify-content: space-evenly;gap: 100px;align-items: flex-start;margin-top: 50px;
+flex-wrap: wrap;text-align: center;}
+
+.text_998{
+    font-size: 40px;
+    width: 400px;
+}
+.text_999{
+    width: 700px;
+    font-size: 30px;
+}
+
+.content539{display: flex;flex-direction: column;align-items: center;margin-top: 100px;}
+
+.image901 {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    padding: 5px;
+  }
+
+.textContainer539{width: 100%; display: flex;justify-content: space-evenly;margin-top: 50px;
+  }
+
+.OurStory66{font-size: 40px;}
+.OurStorytext66{
+    position: relative;
+    background-color: #F0F0F0;
+    width: 400px;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.OurStorytext66 p{font-size: 18px; z-index: 5;color: black;}
+
+.OurStorytext66 img{width: 150px;position: absolute;right: 99;bottom: 0;z-index: 0;opacity: 0.8;}
+
+
+  .box767{
+    background-color: #4B4B4B;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+border-radius: 20px;
+    height: 170px;
+    gap: 20px;
+  }
+
+  .box767 span img{float: right;}
+  .box767 h3{font-size: 40px;}
+
+/* media  */
+
+@media (max-width: 768px) {
+
+    .header539{ gap: 30px;
+        flex-wrap: wrap;}
+
+    .textContainer539{
+        flex-wrap: wrap; align-items: center;gap: 50px;}
+    
+
+  }

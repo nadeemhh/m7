@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap');
+
+
 :root {
   --background: #ffffff;
   --foreground: #171717;
@@ -13,13 +16,12 @@
 html,
 body {
   max-width: 100vw;
-  overflow-x: hidden;
 }
 
 body {
   color: var(--foreground);
   background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'DM Sans', sans-serif !important;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -39,4 +41,135 @@ a {
   html {
     color-scheme: dark;
   }
+}
+
+
+.gradiant-button-999 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 30px;
+  font-size: 24px;
+  font-weight: 500;
+  cursor: pointer;
+  color: black;
+  text-transform: uppercase;
+  position: relative;
+  overflow: hidden;
+  background: linear-gradient(135deg, 
+    #a6a6a6,  /* Dark silver */
+    #dcdcdc,  /* Light silver */
+    #ffffff,  /* Bright highlight */
+    #c0c0c0,  /* Mid-tone */
+    #7d7d7d   /* Shadow */
+  );
+  box-shadow: inset 0 2px 3px rgba(255, 255, 255, 0.6), 
+              inset 0 -2px 3px rgba(0, 0, 0, 0.2),
+              0 4px 10px rgba(0, 0, 0, 0.2);
+  transition: transform 0.2s ease-in-out;
+}
+
+/* Shine effect */
+.gradiant-button-999::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 100%;
+  width: 200%;
+  height: 100%;
+  background: linear-gradient(120deg, 
+    rgba(255, 255, 255, 0) 30%, 
+    rgba(255, 255, 255, 0.7) 50%, 
+    rgba(255, 255, 255, 0) 70%
+  );
+  transition: all 0.6s ease-in-out;
+  animation: shine 2s infinite linear;
+}
+
+@keyframes shine {
+  0% {
+    left: -100%;
+  }
+  100% {
+    left: 100%;
+  }
+}
+
+/* .gradiant-button-999:hover::before {
+  left: -100%;
+}
+
+.gradiant-button-999:active {
+  transform: scale(0.95);
+} */
+
+
+
+.gradiant-black-button-999 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 30px;
+  font-size: 24px;
+  font-weight: 500;
+  cursor: pointer;
+  background: linear-gradient(270deg, #606060,#000000);
+  color: white;
+}
+
+.margintbhead{margin-bottom: 20px;margin-top: 20px;}
+
+
+.container198 {
+  background-color: #000; /* This will be the fallback background */
+  color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  padding: 2rem 8rem;
+  background: url('../../public/images-and-icon/Squares.svg') center/cover no-repeat, #000;
+  margin-top: 50px;
+}
+
+.heading65 {
+  margin-bottom: 20px;
+  margin-top: 20px;
+  font-size: 2.5rem;
+}
+
+.boxparent656 {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 50px;
+}
+
+
+
+.mb65{margin-bottom: 250px;}
+
+@media (max-width: 768px) {
+
+  .container198{
+    padding: 1.5rem;
+  }
+
+  .boxparent656 {
+    justify-content: center;
+}
+
+  .gradiant-black-button-999,.gradiant-button-999,.contact-909{  padding: 5px 10px !important;font-size: 15px !important; white-space: nowrap;}
+  .gradiant-black-button-999 img{width: 25px;}
+  .gradiant-button-999 img{width: 25px;}
+
+  .overlay-909 {
+    margin: 0 0px;
+}
+
 }

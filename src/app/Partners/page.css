@@ -1,0 +1,182 @@
+
+
+
+.hero-878 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background:  url('../../../public/images-and-icon/Bg\ 1\ \(1\).svg') center/cover no-repeat;
+    color: white;
+    padding: 20px;
+    padding-top: 50px;
+    height: 400px;
+  }
+  
+  .overlay-878 {
+    margin: 0px 30px;
+  }
+  
+  .title-878 {
+    font-size: 4rem;
+    font-weight: bold;
+  }
+  
+  
+  .description-878 {
+    font-size: 1.8rem;
+    margin: 10px 0;
+  }
+  
+  @media (max-width: 768px) {
+
+    .hero-878 {
+       
+        height: auto;
+        padding-bottom: 50px;
+      }
+
+    .title-878 {
+      font-size: 2rem;
+    }
+  
+    .subtitle-878 {
+      font-size: 1.8rem;
+    }
+  
+    .description-878 {
+      font-size: 1rem;
+    }
+  }
+  
+
+  /* hero end */
+
+
+  /* starting heading  */
+
+.header539{display: flex;justify-content: space-evenly;gap: 100px;align-items: flex-start;margin-top: 50px;
+flex-wrap: wrap;text-align: center;}
+
+.text_998{
+    font-size: 40px;
+    width: 400px;
+}
+.text_999{
+    width: 700px;
+    font-size: 30px;
+}
+
+@media (max-width: 768px) {
+
+    .header539{ gap: 30px;
+        flex-wrap: wrap;}
+  }
+
+   /* starting heading end  */
+
+
+
+   .partner-container83 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px;
+    background-color: #F0F0F0;
+    margin-top: 30px;
+  }
+  
+  .header83 {
+    display: flex;
+   flex-direction: column;
+    gap: 10px;
+  }
+  
+  
+  
+  .description83 {
+    font-size: 20px;
+    color: rgb(77, 77, 77);
+    max-width: 600px;
+    
+  }
+  
+  .largerletter {
+    font-size: 25px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    color: black;
+  }
+
+   .highlight919 {
+    background-color: #FAB12F;
+    margin-right: 10px;
+    width: 7px;
+    height: 24px;
+  }
+  
+  
+
+  .card-container83 {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    gap: 30px;
+    flex-wrap: wrap;
+  }
+  
+  .card83 {
+    background: white;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.333);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    gap: 10px;
+    width: 160px;
+    height: 185px;
+  }
+  
+  .logo83 {
+    text-align: center;
+  }
+  
+  .whm-title83 {
+    font-weight: bold;
+    font-size: 20px;
+  }
+  
+  .whm-subtitle83 {
+    font-size: 14px;
+    color: gray;
+  }
+  
+  .card-text83 {
+    margin-top: 10px;
+    font-size: 13px;
+  }
+  
+  .card-icons83 {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    margin-top: 20px;
+    font-size: 18px;
+  }
+  
+
+  .card-icons83 img{
+    width: 20px;
+  cursor: pointer;
+  }
+
+  .text_990{
+    font-size: 30px;
+    font-weight: 100;
+    margin-bottom: 250px;
+}

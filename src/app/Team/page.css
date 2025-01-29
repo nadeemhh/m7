@@ -1,0 +1,159 @@
+
+
+
+.hero-878 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background:  url('../../../public/images-and-icon/Bg\ 1\ \(1\).svg') center/cover no-repeat;
+    color: white;
+    padding: 20px;
+    padding-top: 50px;
+    height: 400px;
+  }
+  
+  .overlay-878 {
+    margin: 0px 30px;
+  }
+  
+  .title-878 {
+    font-size: 4rem;
+    font-weight: bold;
+  }
+  
+  
+  .description-878 {
+    font-size: 1.8rem;
+    margin: 10px 0;
+  }
+  
+  @media (max-width: 768px) {
+
+    .hero-878 {
+       
+        height: auto;
+        padding-bottom: 50px;
+      }
+
+    .title-878 {
+      font-size: 2rem;
+    }
+  
+    .subtitle-878 {
+      font-size: 1.8rem;
+    }
+  
+    .description-878 {
+      font-size: 1rem;
+    }
+  }
+  
+
+  /* hero end */
+
+
+  /* starting heading  */
+
+.header539{display: flex;justify-content: space-evenly;gap: 100px;align-items: flex-start;margin-top: 50px;
+flex-wrap: wrap;text-align: center;}
+
+.text_998{
+    font-size: 40px;
+    width: 400px;
+}
+.text_999{
+    width: 700px;
+    font-size: 30px;
+}
+
+@media (max-width: 768px) {
+
+    .header539{ gap: 30px;
+        flex-wrap: wrap;}
+  }
+
+   /* starting heading end  */
+
+
+   .teamheading{font-size: 35px;text-align: center;margin: 50px 0px;font-weight: 600;}
+
+
+   .card-container-932 {
+    position: relative;
+    width: 250px;
+    height: 200px;
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    perspective: 1000px;
+  }
+  
+  .card-front-932 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: white;
+    border-radius: 10px;
+    box-shadow:  0 4px 6px rgba(0, 0, 0, 0.301);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    transition: transform 0.3s ease;
+    z-index: 1;
+  }
+
+  .card-content-932{width: 100%;padding: 10px;display: flex;flex-direction: column;gap: 10px;}
+  
+
+  .imgp88{width: 100%;display: flex;justify-content: flex-end;}
+  .imgp88 img{width: 70px;}
+
+
+  .card-front-932 h2 {
+    font-size: 1.5em;
+    color: #333;
+    margin: 0;
+  }
+  
+  .card-front-932 p {
+    font-size: 0.9em;
+    color: #666;
+    margin-top: 10px;
+  }
+  
+  .card-back-932 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom right, #ffab40, #ff6f00);
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.301);
+    color: white;
+    text-align: center;
+    padding: 10px;
+    opacity: 0;
+    transition: opacity 0.3s ease, transform 0.3s ease;
+  }
+  
+  .card-container-932:hover .card-back-932 {
+    opacity: 1;
+    z-index: 2;
+  }
+  
+  
+  .highlight919 {
+    background-color: #FAB12F;
+    margin-right: 10px;
+    width: 7px;
+    height: 24px;
+  }
+  
+
+  .text_990{
+    font-size: 30px;
+    font-weight: 100;
+    margin-bottom: 250px;
+}
