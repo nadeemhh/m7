@@ -5,7 +5,7 @@ const images = [
   "https://m7investment.vercel.app/images-and-icon/dubai_real_estate_resized.jpg",
   "https://m7investment.vercel.app/images-and-icon/aerospace.jpg",
   "https://m7investment.vercel.app/images-and-icon/Funding_Holdings.jpg",
-  "https://m7investment.vercel.app/images-and-icon/s4.png",
+  "https://m7investment.vercel.app/images-and-icon/s7.png",
 ];
 
 const ImageSlider = () => {

@@ -51,9 +51,11 @@ export default function Page() {
           <h2 className="wow animate__animated animate__zoomIn title909">
             <strong>M7 Investment LLC</strong> is a premier global trade and investment firm, headquartered in the <strong>USA</strong> with a corporate office in <strong>Dubai, UAE.</strong>
           </h2>
+          <Link href="/about-us">
           <button className="gradiant-black-button-999">About Us 
           <img src="\images-and-icon\Group 9827.svg" alt="" />
           </button>
+          </Link>
         </div>
       </div>
     </section>
@@ -143,10 +145,12 @@ export default function Page() {
         <span className="bold139">investment.</span>
       </h2>
 
+      <Link href="/Partners">
       <button className="gradiant-black-button-999">
       Explore Our Partners
   <img src="\images-and-icon\Group 9827.svg" alt="" />
   </button>
+  </Link>
     
     </section>
 
@@ -157,9 +161,9 @@ export default function Page() {
 
  <div className="services098">
 
-<div>
+{/* <div>
 <img src="\images-and-icon\offers.svg" width={'190px'} alt="" />
-</div>
+</div> */}
 
 <div className="serviceschild098">
 
