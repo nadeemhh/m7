@@ -1,11 +1,20 @@
-
+'use client'
 import Link from 'next/link';
 import Nav from '../component/nav.js'
 import Footer from '../component/footer.js'
 import './page.css'
+import { useState } from "react";
 
 export default function Page() {
+  const [text, settext]=useState('Upload File');
 
+  const handleFileChange = (event) => {
+    const file = event.target.files[0];
+    if (file) {
+      settext('File Uploaded ✅')
+      console.log(file);
+    }
+  };
 
   return (
     <>
@@ -57,12 +66,18 @@ export default function Page() {
         <label className="label739">YOUR MESSAGE</label>
         <textarea className="textarea739"></textarea>
 
-        {/* <div className="attachment-box739">
-          <p>
-            Add <span className="attachment-highlight739">Attachments</span>
-          </p>
-          <div className="attachment-icon739">📎</div>
-        </div> */}
+        <div className="attachment-box739" onClick={() => document.getElementById('fileInput').click()}>
+      <p>
+         <span className="attachment-highlight739">{text}</span>
+      </p>
+      <div className="attachment-icon739">📎</div>
+      <input
+        type="file"
+        id="fileInput"
+        style={{ display: 'none' ,cursor:'pointer'}}
+        onChange={handleFileChange}
+      />
+    </div>
 
         <button  className="button739">
           Submit

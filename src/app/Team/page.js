@@ -42,6 +42,24 @@ export default function Page() {
 
 {/* ////////// */}
 
+<div className="boxparent656" style={{marginBottom:'50px',justifyContent:'center'}}>
+
+    <div className="card-container-932">
+      <div className="card-front-932">
+        <div className="card-content-932">
+
+          <div className='imgp88'>
+          <img src="\images-and-icon\rect.svg" alt="" />
+          </div>
+          
+          <h2 style={{display:'flex',alignItems:'center'}}> <span className="highlight919"></span>MIRZA S BAIG</h2>
+          <p>CEO & Chairman</p>
+        </div>
+      </div>
+    </div>
+
+    </div>
+
 <div className="boxparent656">
 
 <div className="card-container-932">
@@ -52,18 +70,11 @@ export default function Page() {
           <img src="\images-and-icon\rect.svg" alt="" />
           </div>
           
-          <h2 style={{display:'flex',alignItems:'center'}}> <span className="highlight919"></span> Mr. MIRZA S BAIG</h2>
-          <p>CEO & Chairman</p>
+          <h2 style={{display:'flex',alignItems:'center'}}> <span className="highlight919"></span>MOHAMMED ALI KHAN</h2>
+          <p>CFO</p>
         </div>
       </div>
-      <div className="card-back-932">
-        <p>
-          As the CEO and Chairman of M7 Investment LLC, Mr. Mirza S Baig is the visionary
-          behind the company's global success. With decades of experience in leadership
-          and international trade, he ensures that M7 thrives as a trusted name in global
-          investments.
-        </p>
-      </div>
+    
     </div>
 
 
@@ -75,18 +86,11 @@ export default function Page() {
           <img src="\images-and-icon\rect.svg" alt="" />
           </div>
           
-          <h2 style={{display:'flex',alignItems:'center'}}> <span className="highlight919"></span> Mr. MIRZA S BAIG</h2>
-          <p>CEO & Chairman</p>
+          <h2 style={{display:'flex',alignItems:'center'}}> <span className="highlight919"></span>Syed Subhan Meer</h2>
+          <p>COO</p>
         </div>
       </div>
-      <div className="card-back-932">
-        <p>
-          As the CEO and Chairman of M7 Investment LLC, Mr. Mirza S Baig is the visionary
-          behind the company's global success. With decades of experience in leadership
-          and international trade, he ensures that M7 thrives as a trusted name in global
-          investments.
-        </p>
-      </div>
+    
     </div>
 
     <div className="card-container-932">
@@ -97,18 +101,11 @@ export default function Page() {
           <img src="\images-and-icon\rect.svg" alt="" />
           </div>
           
-          <h2 style={{display:'flex',alignItems:'center'}}> <span className="highlight919"></span> Mr. MIRZA S BAIG</h2>
-          <p>CEO & Chairman</p>
+          <h2 style={{display:'flex',alignItems:'center'}}> <span className="highlight919"></span>Aaron AMATU Baende</h2>
+          <p>Executive Director</p>
         </div>
       </div>
-      <div className="card-back-932">
-        <p>
-          As the CEO and Chairman of M7 Investment LLC, Mr. Mirza S Baig is the visionary
-          behind the company's global success. With decades of experience in leadership
-          and international trade, he ensures that M7 thrives as a trusted name in global
-          investments.
-        </p>
-      </div>
+    
     </div>
 
 
@@ -120,19 +117,31 @@ export default function Page() {
           <img src="\images-and-icon\rect.svg" alt="" />
           </div>
           
-          <h2 style={{display:'flex',alignItems:'center'}}> <span className="highlight919"></span> Mr. MIRZA S BAIG</h2>
-          <p>CEO & Chairman</p>
+          <h2 style={{display:'flex',alignItems:'center'}}> <span className="highlight919"></span>Devotosh Bhatt Acharya</h2>
+          <p>managing director</p>
         </div>
       </div>
-      <div className="card-back-932">
-        <p>
-          As the CEO and Chairman of M7 Investment LLC, Mr. Mirza S Baig is the visionary
-          behind the company's global success. With decades of experience in leadership
-          and international trade, he ensures that M7 thrives as a trusted name in global
-          investments.
-        </p>
-      </div>
+    
     </div>
+
+
+
+    <div className="card-container-932">
+      <div className="card-front-932">
+        <div className="card-content-932">
+
+          <div className='imgp88'>
+          <img src="\images-and-icon\rect.svg" alt="" />
+          </div>
+          
+          <h2 style={{display:'flex',alignItems:'center'}}> <span className="highlight919"></span>DEEPAK MONGA</h2>
+          <p>GCC DIRECTOR</p>
+        </div>
+      </div>
+    
+    </div>
+
+
     </div>
 
 

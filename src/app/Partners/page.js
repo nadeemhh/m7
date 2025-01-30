@@ -51,8 +51,8 @@ export default function Page() {
         
           <p className="card-text83">Harinsa Global S.A</p>
           <div className="card-icons83">
-            <img src="\images-and-icon\weblink.svg" alt="" />
-            <img src="\images-and-icon\download.svg" alt=""  />
+          <a href="https://harinsaglobal.com"><img src="\images-and-icon\weblink.svg" alt="" /></a>
+          <a href="#"> <img src="\images-and-icon\download.svg" alt=""  /></a>
           </div>
         </div>
 
@@ -61,8 +61,8 @@ export default function Page() {
         
           <p className="card-text83">M Tech Contracting LLC</p>
           <div className="card-icons83">
-            <img src="\images-and-icon\weblink.svg" alt="" />
-            <img src="\images-and-icon\download.svg" alt=""  />
+          <a href="https://mtechcontracting.ae"><img src="\images-and-icon\weblink.svg" alt="" /></a>
+          <a href="#"> <img src="\images-and-icon\download.svg" alt=""  /></a>
           </div>
         </div>
 
@@ -71,18 +71,8 @@ export default function Page() {
         
           <p className="card-text83">R H P Project Management LLC</p>
           <div className="card-icons83">
-            <img src="\images-and-icon\weblink.svg" alt="" />
-            <img src="\images-and-icon\download.svg" alt=""  />
-          </div>
-        </div>
-
-        <div className="card83">
-          <img src="\images-and-icon\l4.png" alt="WHM Logo" width={'100px'} className="logo-img83" />
-        
-          <p className="card-text83">M7 Real Estate LLC</p>
-          <div className="card-icons83">
-            <img src="\images-and-icon\weblink.svg" alt="" />
-            <img src="\images-and-icon\download.svg" alt=""  />
+             <a href="#"><img src="\images-and-icon\weblink.svg" alt="" /></a>
+             <a href="#"> <img src="\images-and-icon\download.svg" alt=""  /></a>
           </div>
         </div>
 
@@ -106,18 +96,18 @@ export default function Page() {
         
           <p className="card-text83">Fly Kib</p>
           <div className="card-icons83">
-            <img src="\images-and-icon\weblink.svg" alt="" />
-            <img src="\images-and-icon\download.svg" alt=""  />
+             <a href="https://flykib.com"><img src="\images-and-icon\weblink.svg" alt="" /></a>
+             <a href="#"> <img src="\images-and-icon\download.svg" alt=""  /></a>
           </div>
         </div>
 
         <div className="card83">
-          <img src="\images-and-icon\l6.png" alt="WHM Logo" width={'50px'} className="logo-img83" />
+          <img src="\images-and-icon\LOGO 1.png" alt="WHM Logo" width={'50px'} className="logo-img83" />
         
           <p className="card-text83">M7 Airways</p>
           <div className="card-icons83">
-            <img src="\images-and-icon\weblink.svg" alt="" />
-            <img src="\images-and-icon\download.svg" alt=""  />
+             <a href="#"><img src="\images-and-icon\weblink.svg" alt="" /></a>
+             <a href="#"> <img src="\images-and-icon\download.svg" alt=""  /></a>
           </div>
         </div>
 
@@ -126,8 +116,8 @@ export default function Page() {
         
           <p className="card-text83">Black Eagle Air</p>
           <div className="card-icons83">
-            <img src="\images-and-icon\weblink.svg" alt="" />
-            <img src="\images-and-icon\download.svg" alt=""  />
+             <a href="https://blackeagleair.com"><img src="\images-and-icon\weblink.svg" alt="" /></a>
+             <a href="#"> <img src="\images-and-icon\download.svg" alt=""  /></a>
           </div>
         </div>
 
@@ -136,8 +126,8 @@ export default function Page() {
         
           <p className="card-text83">Arya Group</p>
           <div className="card-icons83">
-            <img src="\images-and-icon\weblink.svg" alt="" />
-            <img src="\images-and-icon\download.svg" alt=""  />
+             <a href="https://arya.org.in"><img src="\images-and-icon\weblink.svg" alt="" /></a>
+             <a href="#"> <img src="\images-and-icon\download.svg" alt=""  /></a>
           </div>
         </div>
 
@@ -159,8 +149,8 @@ export default function Page() {
         
           <p className="card-text83">WHM (World Health Management)</p>
           <div className="card-icons83">
-            <img src="\images-and-icon\weblink.svg" alt="" />
-            <img src="\images-and-icon\download.svg" alt=""  />
+             <a href="https://international-whm.com"><img src="\images-and-icon\weblink.svg" alt="" /></a>
+             <a href="#"> <img src="\images-and-icon\download.svg" alt=""  /></a>
           </div>
         </div>
 
@@ -181,8 +171,9 @@ export default function Page() {
         
           <p className="card-text83">Trade Kings LLC</p>
           <div className="card-icons83">
-            <img src="\images-and-icon\weblink.svg" alt="" />
-            <img src="\images-and-icon\download.svg" alt=""  />
+            <a href="https://www.tradekingsglobal.com/"><img src="\images-and-icon\weblink.svg" alt="" /></a>
+            <a href="\doc\TRADEKINGS PROFILE (1).pdf"> <img src="\images-and-icon\download.svg" alt=""  /></a>
+           
           </div>
         </div>
 
@@ -191,8 +182,8 @@ export default function Page() {
         
           <p className="card-text83">Aaron Baende General Trading LLC</p>
           <div className="card-icons83">
-            <img src="\images-and-icon\weblink.svg" alt="" />
-            <img src="\images-and-icon\download.svg" alt=""  />
+             <a href="#"><img src="\images-and-icon\weblink.svg" alt="" /></a>
+             <a href="#"> <img src="\images-and-icon\download.svg" alt=""  /></a>
           </div>
         </div>
 
@@ -213,18 +204,8 @@ export default function Page() {
         
           <p className="card-text83">Energy Guru</p>
           <div className="card-icons83">
-            <img src="\images-and-icon\weblink.svg" alt="" />
-            <img src="\images-and-icon\download.svg" alt=""  />
-          </div>
-        </div>
-
-        <div className="card83">
-        <img src="\images-and-icon\l6.png" alt="WHM Logo" width={'50px'} className="logo-img83" />
-        
-          <p className="card-text83">Hermez Petroleum</p>
-          <div className="card-icons83">
-            <img src="\images-and-icon\weblink.svg" alt="" />
-            <img src="\images-and-icon\download.svg" alt=""  />
+             <a href="https://www.energyguru.biz"><img src="\images-and-icon\weblink.svg" alt="" /></a>
+             <a href="#"> <img src="\images-and-icon\download.svg" alt=""  /></a>
           </div>
         </div>
 
@@ -233,8 +214,8 @@ export default function Page() {
         
           <p className="card-text83">Us Global Distribution</p>
           <div className="card-icons83">
-            <img src="\images-and-icon\weblink.svg" alt="" />
-            <img src="\images-and-icon\download.svg" alt=""  />
+             <a href="#"><img src="\images-and-icon\weblink.svg" alt="" /></a>
+             <a href="#"> <img src="\images-and-icon\download.svg" alt=""  /></a>
           </div>
         </div>
 

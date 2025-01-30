@@ -50,7 +50,7 @@ export default function Page() {
       </div>
       <div className="services-image-container919">
         <img
-          src="\images-and-icon\ser.png"
+          src="\images-and-icon\stock_exchange.jpg"
           alt="Handshake representing integrity"
           className="services-image919"
         />
@@ -73,7 +73,7 @@ export default function Page() {
       </div>
       <div className="services-image-container919">
         <img
-          src="\images-and-icon\s1.png"
+          src="\images-and-icon\Funding_Holdings.jpg"
           alt="Handshake representing integrity"
           className="services-image919"
         />
@@ -164,7 +164,7 @@ export default function Page() {
       </div>
       <div className="services-image-container919">
         <img
-          src="\images-and-icon\s5.png"
+          src="\images-and-icon\dubai_real_estate_resized.jpg"
           alt="Handshake representing services"
           className="services-image919"
         />
@@ -186,7 +186,7 @@ export default function Page() {
       </div>
       <div className="services-image-container919">
         <img
-          src="\images-and-icon\s6.png"
+          src="\images-and-icon\aerospace.jpg"
           alt="Handshake representing services"
           className="services-image919"
         />

@@ -2,10 +2,10 @@
 import React, { useState, useEffect } from "react";
 
 const images = [
-  "https://m7investment.vercel.app/images-and-icon/cargo.png",
-  "https://m7investment.vercel.app/images-and-icon/ser.png",
-  "https://m7investment.vercel.app/images-and-icon/Handshake 1.png",
-  "https://m7investment.vercel.app/images-and-icon/imgnnn.png",
+  "https://m7investment.vercel.app/images-and-icon/dubai_real_estate_resized.jpg",
+  "https://m7investment.vercel.app/images-and-icon/aerospace.jpg",
+  "https://m7investment.vercel.app/images-and-icon/Funding_Holdings.jpg",
+  "https://m7investment.vercel.app/images-and-icon/s4.png",
 ];
 
 const ImageSlider = () => {

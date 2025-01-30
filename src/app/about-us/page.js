@@ -30,7 +30,7 @@ export default function Page() {
         <span className='headp1'>Building Global Partnerships,</span> <span className='headp2'> Driving Innovation.</span>
         </p>
         <p className='text_999'>
-          Founded in 2022, M7 Investment LLC is a privately held international trade and investment company redefining excellence in global markets.
+           M7 Investment LLC is a privately held international trade and investment company redefining excellence in global markets.
         </p>
       </div>
 
@@ -78,8 +78,8 @@ export default function Page() {
     <span><img src="\images-and-icon\star65.svg" alt="" /></span>
 
     <div>
-    <h3>35+</h3>
-    <p>Years of experience</p>
+    <h3>50+</h3>
+    <p>Staffs</p>
     </div>
   
 </div>
@@ -88,8 +88,8 @@ export default function Page() {
     <span><img src="\images-and-icon\star65.svg" alt="" /></span>
 
     <div>
-    <h3>35+</h3>
-    <p>Years of experience</p>
+    <h3>137+</h3>
+    <p>Projects Completed</p>
     </div>
   
 </div>
@@ -98,8 +98,8 @@ export default function Page() {
     <span><img src="\images-and-icon\star65.svg" alt="" /></span>
 
     <div>
-    <h3>35+</h3>
-    <p>Years of experience</p>
+    <h3>100+</h3>
+    <p>Trusted Clients</p>
     </div>
   
 </div>

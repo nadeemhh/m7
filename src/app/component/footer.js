@@ -82,7 +82,7 @@ export default function Footer() {
       <div className="footer-center-939">
           <div className="footer-logo-939">
           <img src="\images-and-icon\LOGO 1.png" width={'60px'} alt="" />
-            <span className="logo-text-939"> M7 Investment</span>
+           
           </div>
         </div>
         
